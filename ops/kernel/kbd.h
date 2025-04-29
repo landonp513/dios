@@ -1,3 +1,9 @@
+/* The default in-code documentation will not include headers. 
+This is due to the fact that the headers are not necessary for the understanding of the code 
+and they are quite diffifult to understand under-the-hood due to them 
+usually not having intuitive variable names. */
+
+
 #define KBSTATP         0x64    // kbd controller status port(I)
 #define KBS_DIB         0x01    // kbd data in buffer
 #define KBDATAP         0x60    // kbd data port(I)
@@ -29,6 +35,7 @@
 // C('A') == Control-A
 #define C(x) (x - '@')
 
+
 static char shiftcode[256] =
 {
   [0x1D] CTL,
@@ -45,6 +52,7 @@ static char togglecode[256] =
   [0x45] NUMLOCK,
   [0x46] SCROLLLOCK
 };
+
 
 static char normalmap[256] =
 {

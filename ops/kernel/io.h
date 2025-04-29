@@ -11,6 +11,7 @@
 #define FB_HIGH_BYTE_COMMAND    0x0e
 #define FB_LOW_BYTE_COMMAND     0x0f
 
+/* function declarations */
 uint8_t inb(uint16_t port);
 void outb(uint16_t port, uint8_t val);
 uint8_t scan(void);
