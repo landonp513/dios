@@ -8,4 +8,5 @@ This monolithic-style operating system provides in-code documentation and librar
 - Process Scheduling
 - Filesystem
 - Keyboard Drivers (SEMI-DONE)
+- Basic text editor
 
