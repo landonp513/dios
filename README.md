@@ -2,10 +2,10 @@
 This monolithic-style operating system provides in-code documentation and libraries for developing low-level applications and getting started with OS development.
 
 ## TODO
-- Entry
+- Entry (DONE)
 - C library implementation
-- Memory management
+- Memory management (SEMI-DONE)
 - Process Scheduling
 - Filesystem
-- Keyboard Drivers
+- Keyboard Drivers (SEMI-DONE)
 
