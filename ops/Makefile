@@ -32,7 +32,7 @@ $(TARGET): $(OBJS)
 finale:
 	$(shell cd ~/Desktop/my_os_expanded/)
 	$(shell cp $(TARGET) ./iso/boot/$(TARGET))
-	$(shell grub2-mkrescue iso --output=$(TARGET).iso)
+	$(shell grub-mkrescue iso --output=$(TARGET).iso)
 
 clean:
 	rm -f *.o $(TARGET) $(TARGET).iso

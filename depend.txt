@@ -1,0 +1,6 @@
+mtools,
+grub
+xorriso
+gcc-multilib
+nasm
+qemu
