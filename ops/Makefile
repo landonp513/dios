@@ -1,6 +1,8 @@
 CC=gcc
 TARGET=myos
 C_FILES=./libc/string/memcmp.c \
+	./kernel/memc/dynmem.c \
+	./kernel/memc/page.c \
 	./libc/string/memset.c \
 	./libc/string/strcat.c \
 	./libc/string/strchr.c \

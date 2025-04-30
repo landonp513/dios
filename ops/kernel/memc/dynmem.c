@@ -1,4 +1,5 @@
 #include "dynmem.h"
+#include <stdint.h>
 
 typedef struct MemoryBlock {
     size_t size;
